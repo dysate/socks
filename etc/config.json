@@ -1,0 +1,13 @@
+{
+    "local_address": "0.0.0.0",
+    "local_port":1080,
+    "server":"0.0.0.0",
+    "server_port":3480,
+    "password":"xxxxxxxx",
+    "timeout":60,
+    "workers": 1,
+    "fast_open": true,
+    "method":"aes-256-gcm",
+    "plugin":"obfs-server",
+    "plugin_opts":"obfs=tls;failover=bing.com"
+}
