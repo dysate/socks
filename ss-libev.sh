@@ -1,7 +1,6 @@
 #!/bin/bash
 
 
-cp bin/obfs* /usr/local/bin
 
 dpkg -i package/libsodium*
 
